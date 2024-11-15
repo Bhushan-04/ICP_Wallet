@@ -1,4 +1,4 @@
-ICP Based Token Wallet
+<h1>ICP Based Token Wallet</h1>
 
 This is a basic implementation of a wallet on the Internet Computer (IC) that supports token management functionalities like initialization, checking wallet status, receiving tokens, sending tokens, and checking token balances.
 
