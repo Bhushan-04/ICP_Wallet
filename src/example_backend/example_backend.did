@@ -1,3 +1,7 @@
 service : {
-    "greet": (text) -> (text) query;
+    "init_wallet" : () -> ();
+    "get_wallet_status" : () -> (text) query;
+    "get_balance" : (token: text) -> (nat64) query;  // Updated to nat64
+    "receive_tokens" : (token: text, amount: nat64) -> (text);
+    "send_tokens" : (token: text, amount: nat64) -> (text);
 }
